@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './sections/fetch-example';
+import App from './CiclodeActualizacionApp';
 import './index.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
