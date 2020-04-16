@@ -34,14 +34,19 @@ class Children extends Component {
             title = "Ejemplo de articulo"
             date = {new Date().toLocaleDateString()}
             author = "Marco Albarracin">
-            Estan Feos informacion para otra ocacion de la casa azul rellenar el articulo
+            Curabitur tellus condimentum nulla inceptos conubia purus taciti,
+            malesuada commodo urna aliquet. Lorem sociosqu scelerisque congue
+            tristique laoreet urna eleifend, quis vitae nonumy malesuada.
+            Sit varius in duis justo.
           </Article>
 
           <Article
             title = "Otro Articlo"
             date = {new Date().toLocaleDateString()}
             author = "Adriana Perez">
-            Esta informacion para rellenar el articulo
+            Tellus condimentum nulla inceptos conubia purus taciti,
+            malesuada commodo urna aliquet. Congue
+            tristique laoreet urna eleifend, quis vitae nonumy malesuada.
           </Article>
         </div>
     );
