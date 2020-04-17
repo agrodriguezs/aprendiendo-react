@@ -3,8 +3,9 @@ import React from 'react'
 const _renderCurrencies = (bpi) => (
   Object.keys(bpi).map(currency => (
      <div key={currency}>
+     <p><strong>{bpi[currency].description}</strong></p>
       1 BTC is {bpi[currency].rate}
-      <span> {bpi[currency].code}</span>
+      <span>{bpi[currency].code}</span>
      </div>
   ))
 )
