@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import EjComponentDidUpdate from './sections/EjComponentDidUpdate';
+import EjComponentDidCatch from './sections/EjComponentDidCatch';
 
 class App extends Component {
   render () {
    return (
         <div className="App">
-            <EjComponentDidUpdate />
+            <EjComponentDidCatch />
         </div>
     );
   }
